@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.checkList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.checkList .normal {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  border: #f0f0f0 solid 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.checkList .active {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #fef4f3;
+  border: #ee260c solid 1px;
+  color: #ee260c;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btnContainer {
+  text-align: center;
+}
+.btnContainer button {
+  margin: 0 15px;
+  padding: 10px 20px;
+  background-color: #eee;
+  border: #ccc solid 1px;
+  border-radius: 4px;
+}
